@@ -484,7 +484,7 @@ int main()
             if (CheckCollisionRecs(enemyRect,pl)) {
                 player.health--;
             }}
-            if (frame % 10 == 0)
+            if (frame % 100 == 0)
             {
                 int input = rand() % 3;
                 if (input == 0)

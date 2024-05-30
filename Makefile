@@ -1,5 +1,5 @@
-game:
-	g++ main.cpp -lraylib -o main -g
+#game:
+#	g++ main.cpp -lraylib -o main
 
 editor:
 	g++ editor.cpp -lraylib -o editor
